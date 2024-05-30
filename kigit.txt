@@ -1,0 +1,4 @@
+#git-reponame, leave next line as random and it will be random word otherwise write a github repo name in
+kilian_code_minifier_python_parrot_example_1
+#public git, y for yes n for no, standard no
+y
