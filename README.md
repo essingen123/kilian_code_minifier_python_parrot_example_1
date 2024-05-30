@@ -17,9 +17,9 @@
 
 1. Save the script as `kilian_code_minifier_parrot.py`.
 2. Run the script to minify all Python files in the current directory:
-   ```sh
+   \`\`\`sh
    python kilian_code_minifier_parrot.py
-   ```
+   \`\`\`
 3. The minified files will be located in the `kilian_code_minifier_parrot_result` folder.
 
 ### Installing as a Bash Command
@@ -27,21 +27,21 @@
 To install the script as a command in your `.bashrc`:
 
 1. Run the script with the `--install` option:
-   ```sh
+   \`\`\`sh
    python kilian_code_minifier_parrot.py --install
-   ```
+   \`\`\`
 2. After running the install command, restart your terminal or source your `.bashrc`:
-   ```sh
+   \`\`\`sh
    source ~/.bashrc
-   ```
+   \`\`\`
 3. You can now use the alias `kilian_minifier_parrot` to run the script in any directory:
-   ```sh
+   \`\`\`sh
    kilian_minifier_parrot
-   ```
+   \`\`\`
 
 ## Example
 
-```sh
+\`\`\`sh
 $ python kilian_code_minifier_parrot.py
 2024-05-30 12:00:00 - INFO - Starting minification in folder: /path/to/your/files
 2024-05-30 12:00:00 - INFO - Processed file: /path/to/your/files/example.py
@@ -51,7 +51,7 @@ $ kilian_minifier_parrot
 2024-05-30 12:00:00 - INFO - Starting minification in folder: /current/directory
 2024-05-30 12:00:00 - INFO - Processed file: /current/directory/example.py
 2024-05-30 12:00:00 - INFO - Minified files are in the 'kilian_code_minifier_parrot_result' folder.
-```
+\`\`\`
 
 ## License
 
